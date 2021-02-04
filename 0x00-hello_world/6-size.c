@@ -1,4 +1,4 @@
-/*
+/**
 * sizeof: calculate size of a especific type of data
 * printf: Print what you write
 * %d: reference to a int number
