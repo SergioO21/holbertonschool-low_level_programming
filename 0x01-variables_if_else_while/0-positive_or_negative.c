@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /*
 * main: Starting point of the program
@@ -14,7 +15,7 @@
 
 	if (n == 0)
 	{
-		pritnf("is zero");
+		printf("is zero");
 	}
 
 	else if (n > 0)
