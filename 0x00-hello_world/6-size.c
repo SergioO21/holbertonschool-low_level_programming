@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
+* main: Starting point of the program
+* sizeof: calculate size of different data types	
+* printf: Print what you write
 */
 int main(void)
 {
