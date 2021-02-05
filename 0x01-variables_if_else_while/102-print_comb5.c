@@ -6,19 +6,19 @@
 */
 int main(void)
 {
-	int x = '0', z = '0', y = '0', a = '0';
+	int x = '0';
 
 	while  (x <= '9')
 	{
-		y = '0';
+		int y = '0';
 
 		while  (y <= '9')
 		{
-			z = '0';
+			int z = '0';
 
 			while (z <= '9')
 			{
-				a = '0';
+				int a = '0';
 
 				while (a <= '9')
 				{
