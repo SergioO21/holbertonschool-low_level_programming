@@ -21,18 +21,17 @@
 					putchar(x);
 					putchar(y);
 
-				if (x == '8' && y == '9')
-					break;
+					if (x == '8' && y == '9')
+						break;
 
-				putchar(',');
-				putchar(' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
-			x += 1;
+			y += 1;
 		}
-		y += 1;
+		x += 1;
 	}
-
 	putchar('\n');
 	return (0);
 }
