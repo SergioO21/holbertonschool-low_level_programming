@@ -6,19 +6,26 @@
 * putchar: Print a character
 */ int main(void)
 {
-	int number = 48;
-	int coma = 44;
-	int space = 32;
+	int l = '0';
 
-	while (number < 57)
+	while  (l <= '9')
 	{
-		putchar(number);
-		putchar(coma);
-		putchar(space);
-		number += 1;
+		int r = '0';
+
+		while  (r <= '9')
+		{
+			putchar(l);
+			putchar(r);
+
+			if (l != '9' || r != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			r++;
+		}
+		l++;
 	}
-
-	putchar(number);
-
+	putchar('\n');
 	return (0);
 }
