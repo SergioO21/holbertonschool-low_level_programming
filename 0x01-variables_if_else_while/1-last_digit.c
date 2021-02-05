@@ -15,19 +15,19 @@
 	n = rand() - RAND_MAX / 2;
 	f = n % 10;
 	
-	printf("Last digit of %d is %d and is ");
+	printf("Last digit of %d is %d and is ", n, f);
 
 	if (n == 0)
 	{
-		printf("0\n", n, f);
+		printf("0\n");
 	}
 
 	if (n > 5)
 	{
-		printf("greater than 5\n", n, f);
+		printf("greater than 5\n");
 	} else
 	{
-		printf("less than 6 and not 0\n", n, f);
+		printf("less than 6 and not 0\n");
 	}
 
 	return (0);
