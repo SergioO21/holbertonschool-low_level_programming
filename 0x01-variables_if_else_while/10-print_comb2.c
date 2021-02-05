@@ -6,13 +6,13 @@
 * putchar: Print a character
 */ int main(void)
 {
-	int l = 0;
+	int l = '0';
 
 	while  (l <= '9')
 	{
-		int r = 0;
+		int r = '0';
 
-		while  (l <= 9)
+		while  (r <= '9')
 		{
 			putchar(l);
 			putchar(r);
@@ -29,7 +29,7 @@
 		l += 1;
 	}
 
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
