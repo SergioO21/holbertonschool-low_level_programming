@@ -2,11 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-* main: Starting point of the program
-* return (0): Standart output
+/**
+* main - Starting point of the program
+* Return: 0
 * f: Take a last digit of "n"
-*/ int main(void)
+*/
+
+int main(void)
 {
 	int n;
 	int f;
