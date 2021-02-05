@@ -11,7 +11,7 @@
 
 	while (alphabet[i] != '\0')
 	{
-		if (i != 5 && i != 17)
+		if (i != 4 && i != 16)
 		{
 			putchar(alphabet[i]);
 		}
