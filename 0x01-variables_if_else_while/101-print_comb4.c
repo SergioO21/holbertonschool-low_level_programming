@@ -26,10 +26,8 @@
 						putchar(y);
 						putchar(z);
 
-						if (x == '7' && y == '8' && z == '9')
-						{
-							break;
-						}
+					if (x == '7' && y == '8' && z == '9')
+						break;
 
 						putchar(',');
 						putchar(' ');
