@@ -8,7 +8,7 @@
 {
 	int i = 0;
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-	char alphabetUp[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alphabetUp[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ$";
 
 	while (alphabet[i] != '\0')
 	{
