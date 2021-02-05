@@ -10,16 +10,13 @@
 	int space = 32;
 	int coma = 44;
 
-	for (i = 0; i < 99; i++)
+	for (i = 0; i < 100; i++)
 	{
 		putchar((i / 10) + '0');
 		putchar((i % 10) + '0');
 		putchar(coma);
 		putchar(space);
 	}
-
-	putchar((i / 10) + '0');
-	putchar((i % 10) + '0');
 
 	return (0);
 }
