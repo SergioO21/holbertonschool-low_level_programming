@@ -6,42 +6,40 @@
 */
 int main(void)
 {
-	int x = '0';
+	int l = '0';
+	int a;
+	int n;
+	int d;
 
-	while  (x <= '9')
+	while (l <= '9')
 	{
-		int y = '0';
-
-		while  (y <= '9')
+		for (a = '0'; a <= '9'; a++)
 		{
-			int z = '0';
+			n = '0';
 
-			while (z <= '9')
+			while (n <= '9')
 			{
-				int a = '0';
-
-				while (a <= '9')
+				for (d = '0'; d <= '9'; d++)
 				{
-					if (x <= z && y < a)
+					if (l < n || (l == n && a < d))
 					{
-						putchar(x);
-						putchar(y);
-						putchar(' ');
-						putchar(z);
+						putchar(l);
 						putchar(a);
-					if (x == '9' && y == '8' && z == '9' && a == '9')
-						break;
+						putchar(' ');
+						putchar(n);
+						putchar(d);
 
+					if (l != '9' || a != '8' || n != '9' || d != '9')
+					{
 						putchar(',');
 						putchar(' ');
 					}
-					a += 1;
+					}
 				}
-				z += 1;
+				n++;
 			}
-			y += 1;
 		}
-		x += 1;
+		l++;
 	}
 	putchar('\n');
 	return (0);
