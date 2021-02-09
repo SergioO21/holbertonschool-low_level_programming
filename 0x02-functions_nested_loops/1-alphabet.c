@@ -7,11 +7,10 @@
 void print_alphabet(void)
 {
 	int i;
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 0; i < 27; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		_putchar(alphabet[i]);
+		_putchar(i);
 	}
 
 	_putchar('\n');
