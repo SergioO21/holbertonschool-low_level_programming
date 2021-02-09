@@ -1,5 +1,9 @@
 #include "holberton.h"
 
+/**
+ * print_alphabet - Print alphabet character for character
+ */
+
 void print_alphabet(void)
 {
 	int i;
