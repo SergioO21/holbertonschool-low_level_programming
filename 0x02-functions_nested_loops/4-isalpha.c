@@ -1,14 +1,14 @@
 #include "holberton.h"
 
 /**
- * _islower - main function
+ * _isalpha - main function
  * @c: Character
  *
- * Description: [_islower] Checks for lowercase characters
- * Return: If is lowercase, return 1. Else, return 0
+ * Description: [_isalpha] Checks for lowercase or uppercase letters
+ * Return: If is a lowercase or uppercase letter, return 1. Else, return 0
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 
 	if (c >= 'a' && c <= 'z')
