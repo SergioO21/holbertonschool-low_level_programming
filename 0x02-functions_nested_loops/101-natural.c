@@ -1,28 +1,15 @@
 #include <stdio.h>
 
-/**
- * main - Starting point of the program
- * Return: Always 0
- */
-
-int main(void)
+int main (void)
 {
-	int a = 0, b = 0, c = 0, d = 0;
+	int n, s;
 
-	for (a = 3; a <= 1024; a += 3)
+	for (n = 0; n <= 1024; n ++)
 	{
-		b = b + a;
-
+		if (n % 3 == 0 || n % 5 == 0)
+			s = s + n;
 	}
 
-	a = 0;
-
-	for (a = 5; a <= 1024; a += 5)
-	{
-		c = c + a;
-	}
-	d = b + c;
-	printf("%d\n", d);
-
+	printf("%d\n", s);
 	return (0);
 }
