@@ -7,14 +7,14 @@
 
 int main(void)
 {
-	int i = 0, a = 1, b = 2, c = 0;
+	long unsigned int i = 0, a = 1, b = 2, c = 0;
 
-	printf("%u, %u, ", a, b);
+	printf("%lu, %lu, ", a, b);
 
 	for (i = 0; i < 50; i++)
 	{
 		c = a + b;
-		printf("%u", c);
+		printf("%lu", c);
 		a = b;
 		b = c;
 
