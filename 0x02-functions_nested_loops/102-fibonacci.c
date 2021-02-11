@@ -11,14 +11,14 @@ int main(void)
 
 	printf("%lu, %lu, ", a, b);
 
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 48; i++)
 	{
 		c = a + b;
 		printf("%lu", c);
 		a = b;
 		b = c;
 
-		if (i != 49)
+		if (i != 47)
 			printf(", ");
 	}
 	printf("\n");
