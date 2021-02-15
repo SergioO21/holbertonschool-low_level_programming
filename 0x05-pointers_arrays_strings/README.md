@@ -1,1 +1,1 @@
-Working with  Arrays, Pointers and Strings
+Working with Arrays, Pointers and Strings
