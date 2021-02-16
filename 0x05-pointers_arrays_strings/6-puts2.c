@@ -10,25 +10,13 @@ void puts2(char *str)
 {
 	int c = 0;
 
-	while (*str != '\0')
+	while (str[c] != '\0')
 	{
 		if (c % 2 == 0)
 		{
-			_putchar(*str);
-			str++;
-			c++;
+			_putchar(str[c]);
 		}
-
-		else if (c == 9)
-		{
-			break;
-		}
-
-		else
-		{
-			str++;
-			c++;
-		}
+		c++;
 	}
 	_putchar('\n');
 }
