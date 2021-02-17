@@ -2,7 +2,7 @@
 
 /**
  * _atoi - Convert a string to an integer
- * @i: String pointer
+ * @s: String pointer
  *
  * Return: Positive or negative integer
  */
