@@ -20,12 +20,15 @@ char *cap_string(char *s)
 			if (s[i] == x[j])
 			{
 				i++;
-				if (s[i] >= 'a' && s[i] <= 'z' && s[i] != '\0')
+				if (s[i] >= 'a' && s[i] <= 'z')
 				{
 					s[i] = s[i] - 32;
 					break;
 				}
 			}
+
+		if (s[i] == '\0')
+			break;
 	}
 	return (s);
 }
