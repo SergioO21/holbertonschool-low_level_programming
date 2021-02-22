@@ -3,7 +3,7 @@
 /**
  * _strspn - Gets the length of a prefix substring.
  *
- * @s: First string. 
+ * @s: First string.
  * @accept: Second String.
  *
  * Return: Counter.
