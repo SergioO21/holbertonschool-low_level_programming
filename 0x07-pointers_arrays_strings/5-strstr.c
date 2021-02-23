@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strstr - Finds the first occurrence of the 
+ * _strstr - Finds the first occurrence of the
  *           substring @needle in the string @haystack.
  *           The terminating null bytes (\0) are not compared.
  *
@@ -14,12 +14,22 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	while (*haystack != '\0')
-	{
-		if (*haystack == *needle)
-			return (haystack);
+	char *a, *c;
 
-		haystack++;
+	while (*haystack)
+	{
+		c = haystack;
+		a = needle;
+
+		while (*a == *haystack && *a)
+		{
+			haystack++, a++;
+		}
+
+		if (*a == '\0')
+			return (c);
+
+		haystack = c + 1;
 	}
-	return (NULL);
+	return (0);
 }
