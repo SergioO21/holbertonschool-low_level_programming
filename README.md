@@ -1,4 +1,4 @@
-![https://www.holbertonschool.com/](https://www.holbertonschool.com/holberton-logo.png)
+![https://www.holbertonschool.com/holberton-logo.png](https://www.holbertonschool.com/)
 
 # Holberton School's Low Level Programming #
 
