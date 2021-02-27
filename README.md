@@ -16,9 +16,9 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x05. C - Pointers, arrays and strings](./0x05-pointers_arrays_strings)**           | Arrays, Pointers and Strings.                      |
 | **[0x06. C - More pointers, arrays and strings](./0x06-pointers_arrays_strings)**      | More pointers, arrays and strings.                      |
 | **[0x07. C - Even more pointers, arrays and strings](./0x07-pointers_arrays_strings)** | Even more pointers, arrays and strings.                      |
-| **0x08. C - Recursion**                                   | Recursion.                                                          |
-| **0x09. C - Static libraries**                            | Static libraries.                                                                    |
-| **0x0A. C - argc, argv**                                  |                                                                     |
+| **[0x08. C - Recursion](./0x08-recursion)**                                   | Recursion.                                                          |
+| **[0x09. C - Static libraries](./0x09-static_libraries)**                            | Static libraries.                                                                    |
+| **[0x0A. C - argc, argv](./0x0A-argc_argv)**                                  | argc, argv                                                                    |
 | **0x0B. C - malloc, free**                                |                                                                     |
 | **0x0C. C - More malloc, free**                           |                                                                     |
 | **0x0D. C - Preprocessor**                                |                                                                     |
