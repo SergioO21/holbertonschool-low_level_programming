@@ -1,4 +1,4 @@
-![https://www.holbertonschool.com/holberton-logo.png](https://www.holbertonschool.com/)
+![](https://www.holbertonschool.com/holberton-logo.png)
 
 # Holberton School's Low Level Programming #
 
@@ -19,9 +19,3 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x08. C - Recursion](./0x08-recursion)**                                            | *Recursion.*                                    |
 | **[0x09. C - Static libraries](./0x09-static_libraries)**                              | *Static libraries.*                             |
 | **[0x0A. C - argc, argv](./0x0A-argc_argv)**                                           | *argc, argv*                                    |
-| **0x0B. C - malloc, free**                                                             |                                                 |
-| **0x0C. C - More malloc, free**                                                        |                                                 |
-| **0x0D. C - Preprocessor**                                                             |                                                 |
-| **0x0E. C - Structures, typedef**                                                      |                                                 |
-| **0x0F. C - Function pointers**                                                        |                                                 |
-| **0x10. C - Variadic functions**                                                       |                                                 |
