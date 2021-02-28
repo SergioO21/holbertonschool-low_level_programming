@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - Print all arguments it receives.
+ * main - Print all arguments it receives line per line,
+ *        ending with a new line.
  *
  * @argc: Number of arguments.
  * @argv: Value of arguments.
