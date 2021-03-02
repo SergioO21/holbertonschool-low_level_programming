@@ -13,18 +13,18 @@
 
 char *_strdup(char *str)
 {
-	unsigned int i, l;
+	unsigned int i;
 	char *str2;
 
-	l = 0;
+	i = 0;
 
 	if (str == 0)
 		return (0);
 
-	while (str[l] != '\0')
-		l++;
+	while (str[i] != '\0')
+		i++;
 
-	str2 = malloc(sizeof(char) * (l + 1));
+	str2 = malloc(sizeof(char) * (i + 1));
 
 	if (str2 == 0)
 		return (0);
@@ -34,7 +34,7 @@ char *_strdup(char *str)
 		for (i = 0; str[i] != '\0'; i++)
 			str2[i] = str[i];
 
-		str2[l] = '\0';
+		str2[i] = '\0';
 
 		return (str2);
 	}
