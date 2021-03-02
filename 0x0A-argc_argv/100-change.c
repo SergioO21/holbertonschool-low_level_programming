@@ -1,13 +1,14 @@
 #include "holberton.h"
 
 /**
- * main -
+ * main - Prints the minimum number of coins
+ *        to make change for an amount of money.
  *
  * @argc: Number of arguments.
  * @argv: Value of arguments.
  *
- * Return:
- *
+ * Return: If number of arguments is different than 2, return (1),
+ *         Else, return (0).
  */
 
 int main(int argc, char **argv)
