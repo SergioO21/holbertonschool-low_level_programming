@@ -6,7 +6,7 @@
  * @ac: Number of arguments.
  * @av: Value of arguments.
  *
- * Return: if "ac == 0" or "av == NULL" or failure, return (0),
+ * Return: If "ac == 0" or "av == NULL" or failure, return (0),
  *         Else, return a pointer to a new string.
  */
 
