@@ -19,3 +19,4 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x08. C - Recursion](./0x08-recursion)**                                            | *Recursion.*                                    |
 | **[0x09. C - Static libraries](./0x09-static_libraries)**                              | *Static libraries.*                             |
 | **[0x0A. C - argc, argv](./0x0A-argc_argv)**                                           | *argc, argv*                                    |
+| **[0x0B. C - malloc_free](./0x0B-malloc_free)**                                        | *malloc and free*                               |
