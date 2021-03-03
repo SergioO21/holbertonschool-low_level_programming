@@ -31,10 +31,10 @@ char *argstostr(int ac, char **av)
 
 	str = malloc(sizeof(char) * (c + 1));
 
-	c = 0;
-
-	if (str == 0)
+	if (c == 0)
 		return (0);
+
+	c = 0;
 
 	for (i = 0; i < ac; i++)
 	{
