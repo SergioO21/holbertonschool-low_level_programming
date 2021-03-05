@@ -20,4 +20,4 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x09. C - Static libraries](./0x09-static_libraries)**                              | *Static libraries.*                             |
 | **[0x0A. C - argc, argv](./0x0A-argc_argv)**                                           | *argc, argv*                                    |
 | **[0x0B. C - malloc_free](./0x0B-malloc_free)**                                        | *malloc and free*                               |
-| **[0x0 - C - more_malloc_free](./0x0C-more_malloc_free)**                              | *more malloc and free*                          |
+| **[0x0C. C - more_malloc_free](./0x0C-more_malloc_free)**                              | *more malloc and free*                          |
