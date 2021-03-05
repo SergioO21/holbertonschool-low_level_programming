@@ -21,12 +21,7 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (0);
 
-	for (i = min; i <= max; i++)
-		j++;
-	
-	printf("%d\n", j);
-
-	ar = (int *) malloc(sizeof(int) * (j + 1));
+	ar = (int *) malloc(sizeof(int) * (max - min) + 1);
 
 	if (ar == 0)
 		return (0);
@@ -34,7 +29,6 @@ int *array_range(int min, int max)
 	for (i = min, j = 0; i <= max; i++, j++)
 	{
 		ar[j] = i;
-		printf("%d\n", ar[j]);
 	}
 
 	ar[j] = '\0';
