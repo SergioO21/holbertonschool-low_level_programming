@@ -6,7 +6,7 @@
  * @min: Minimum number.
  * @max: Maximum number.
  *
- * Return: If min > max, return (0).
+ * Return: If @min > @max, return (0).
  *         If fails, return (0).
  *         Else, returns the pointer to the newly created array.
  */
@@ -23,6 +23,8 @@ int *array_range(int min, int max)
 
 	for (i = min; i <= max; i++)
 		j++;
+	
+	printf("%d\n", j);
 
 	ar = (int *) malloc(sizeof(int) * (j + 1));
 
@@ -30,9 +32,12 @@ int *array_range(int min, int max)
 		return (0);
 
 	for (i = min, j = 0; i <= max; i++, j++)
+	{
 		ar[j] = i;
+		printf("%d\n", ar[j]);
+	}
 
-	ar[i] = '\0';
+	ar[j] = '\0';
 
 	return (ar);
 }
