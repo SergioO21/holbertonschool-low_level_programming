@@ -8,7 +8,7 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 
 | **Project**                                                                            | **Description**                                 |
 | -------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| **[0x00. C - Hello, World](./0x00-hello_world)**                                           | *Hello world in the world C.*                   |
+| **[0x00. C - Hello, World](./0x00-hello_world)**                                       | *Hello world in the world C.*                   |
 | **[0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)**             | *Variables (if, else, while).*                  |
 | **[0x02. C - Functions, nested loops](./0x02-functions_nested_loops)**                 | *Nested loops.*                                 |
 | **[0x03. C - Debugging](./0x03-debugging)**                                            | *Debugging programs.*                           |
@@ -20,3 +20,4 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x09. C - Static libraries](./0x09-static_libraries)**                              | *Static libraries.*                             |
 | **[0x0A. C - argc, argv](./0x0A-argc_argv)**                                           | *argc, argv*                                    |
 | **[0x0B. C - malloc_free](./0x0B-malloc_free)**                                        | *malloc and free*                               |
+| **[0x0 - C - more_malloc_free](./0x0C-more_malloc_free)**                              | *more malloc and free*                          |
