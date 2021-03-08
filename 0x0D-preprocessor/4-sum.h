@@ -3,4 +3,4 @@
 
 #define SUM(x, y) ((x) + (y))
 
-#endif /* Computes the sum of two numbers*/
+#endif /* Computes the sum of two numbers */
