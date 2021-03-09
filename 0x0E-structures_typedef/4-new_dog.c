@@ -17,8 +17,6 @@ char *_strcpy(char *dest, char *src);
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	int l_name, l_owner;
-
 	dog_t *my_new_dog;
 
 	my_new_dog = malloc(sizeof(dog_t));
@@ -31,8 +29,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	else
 	{
-		l_name = _strlen(name);
-		my_new_dog->name = (char *) malloc(sizeof(char) * (l_name + 1));
+		my_new_dog->name = (char *) malloc(_strlen(name) + 1);
 
 		if (my_new_dog->name == 0)
 		{
@@ -48,8 +45,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	else
 	{
-		l_owner = _strlen(owner);
-		my_new_dog->owner = (char *) malloc(sizeof(char) * (l_owner + 1));
+		my_new_dog->owner = (char *) malloc(_strlen(owner)+ 1);
 
 		if (my_new_dog->owner == 0)
 		{
