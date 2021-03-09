@@ -92,14 +92,13 @@ int _strlen(char *s)
 
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
+	char *s = dest;
 
-	while (src[i] != '\0')
+	for (; *src != '\0'; src++, s++)
 	{
-		dest[i] = src[i];
-		i++;
+		*s = *src;
 	}
 
-	dest[i] = '\0';
-	return (dest);
+	*s = '\0';
+	return (s);
 }
