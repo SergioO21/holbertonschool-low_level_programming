@@ -21,37 +21,37 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	my_new_dog = malloc(sizeof(dog_t));
 
-	if (my_new_dog == 0)
-		return (0);
+	if (my_new_dog == NULL)
+		return (NULL);
 
-	if (name == 0)
-		my_new_dog->name = 0;
+	if (name == NULL)
+		my_new_dog->name = NULL;
 
 	else
 	{
 		my_new_dog->name = (char *) malloc(_strlen(name) + 1);
 
-		if (my_new_dog->name == 0)
+		if (my_new_dog->name == NULL)
 		{
 			free(my_new_dog);
-			return (0);
+			return (NULL);
 		}
 
 		my_new_dog->name = _strcpy(my_new_dog->name, name);
 	}
 
-	if (owner == 0)
-		my_new_dog->owner = 0;
+	if (owner == NULL)
+		my_new_dog->owner = NULL;
 
 	else
 	{
-		my_new_dog->owner = (char *) malloc(_strlen(owner)+ 1);
+		my_new_dog->owner = (char *) malloc(_strlen(owner) + 1);
 
-		if (my_new_dog->owner == 0)
+		if (my_new_dog->owner == NULL)
 		{
 			free(my_new_dog->owner);
 			free(my_new_dog);
-			return (0);
+			return (NULL);
 		}
 
 		my_new_dog->owner = _strcpy(my_new_dog->owner, owner);
