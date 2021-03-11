@@ -20,13 +20,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 		if (separator == 0)
 			continue;
-		
+
 		else if (i + 1 != n)
 			printf("%s", separator);
-
-		else
-			printf("\n");
 	}
 
 	va_end(ar);
+	printf("\n");
 }
