@@ -1,12 +1,13 @@
 #include "variadic_functions.h"
 
 /**
+ * print_strings - Prints strings, followed by a new line.
  *
+ * @separator: the string to be printed between the strings.
+ * @n: The number of strings passed to the function.
  *
- *
- *
- *
- *
+ * If separator is NULL, dont print it.
+ * If one of the string is NULL, print (nil) instead.
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -23,7 +24,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		if (string == NULL)
 			printf("(nil)");
-		
+
 		else
 			printf("%s", string);
 
