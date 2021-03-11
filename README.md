@@ -24,4 +24,4 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x0D. C - Preprocessor](./0x0D-preprocessor)**                                      | *Preprocessor*                                  |
 | **[0x0E. C - Structures_typedef](./0x0E-structures_typedef)**                          | *Structures and typedef*                        |
 | **[0x0F. C - Function_pointers](./0x0F-function_pointers)**                            | *Function pointers*                             |
-| **[0x10. C - Variadic_functions](./0x10-variadic_functions)**                          | * Variadic functions*                           |
+| **[0x10. C - Variadic_functions](./0x10-variadic_functions)**                          | *Variadic functions*                            |
