@@ -6,12 +6,18 @@
 #include <string.h>
 #include <stddef.h>
 
-/** Data Structure */
-typedef struct list_t {
-
+/**
+ * struct list_t - Data structure of the linked list.
+ *
+ * @str: String.
+ * @len: Length.
+ * @next: Next node.
+ */
+typedef struct list_t
+{
 	char *str;
 	unsigned long len;
-	struct list_t* next;
+	struct list_t *next;
 
 } list_t;
 
