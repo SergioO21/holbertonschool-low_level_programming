@@ -19,9 +19,11 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x08. C - Recursion](./0x08-recursion)**                                            | *Recursion.*                                    |
 | **[0x09. C - Static libraries](./0x09-static_libraries)**                              | *Static libraries.*                             |
 | **[0x0A. C - argc, argv](./0x0A-argc_argv)**                                           | *argc, argv*                                    |
-| **[0x0B. C - malloc_free](./0x0B-malloc_free)**                                        | *malloc and free*                               |
-| **[0x0C. C - More_malloc_free](./0x0C-more_malloc_free)**                              | *More malloc and free*                          |
+| **[0x0B. C - malloc and free](./0x0B-malloc_free)**                                    | *malloc and free*                               |
+| **[0x0C. C - More malloc and free](./0x0C-more_malloc_free)**                          | *More malloc and free*                          |
 | **[0x0D. C - Preprocessor](./0x0D-preprocessor)**                                      | *Preprocessor*                                  |
-| **[0x0E. C - Structures_typedef](./0x0E-structures_typedef)**                          | *Structures and typedef*                        |
-| **[0x0F. C - Function_pointers](./0x0F-function_pointers)**                            | *Function pointers*                             |
-| **[0x10. C - Variadic_functions](./0x10-variadic_functions)**                          | *Variadic functions*                            |
+| **[0x0E. C - Structures typedef](./0x0E-structures_typedef)**                          | *Structures and typedef*                        |
+| **[0x0F. C - Function pointers](./0x0F-function_pointers)**                            | *Function pointers*                             |
+| **[0x10. C - Variadic functions](./0x10-variadic_functions)**                          | *Variadic functions*                            |
+| **[0x12. C - Singly linked lists](./0x12-singly_linked_lists)**                        | *Sinlgy linked lists*                           |
+| **[0x13. C - More singly linked lists](./0x13-more_singly_linked_lists)**              | *More singly linked lists*                      |
