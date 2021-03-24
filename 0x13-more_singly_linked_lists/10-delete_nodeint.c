@@ -14,7 +14,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *tmp, *h;
 
-	UINT token = 0;
+	unsigned int token = 0;
 
 	if (!head || !*head)
 		return (-1);
