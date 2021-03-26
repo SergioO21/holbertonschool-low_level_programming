@@ -15,28 +15,18 @@ int countSetBits(unsigned long int n);
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	return (countSetBits(n ^ m));
-}
+	 unsigned int value;
+	 int count = 0;
 
-/**
- * countSetBits - Returns the number of bits you would need
- *                to flip to get from one number to another.
- *
- * @n: Difference.
- *
- * Return: The number of bits you would need
- *         to flip to get from one number to another.
- */
+	 value = n ^ m;
 
-int countSetBits(unsigned long int n)
-{
-	int count = 0;
+	 while (value > 0)
+	 {
+		 if ((value & 1) == 1)
+			 count++;
 
-	while (n > 0)
-	{
-		count++;
-		n &= (n - 1);
-	}
+		 value >>= 1;
+	 }
 
-	return (count);
+	 return (count);
 }
