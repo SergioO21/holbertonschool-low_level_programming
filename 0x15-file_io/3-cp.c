@@ -14,7 +14,7 @@
 int main(int argc, char **argv)
 {
 	int file_from, file_to;
-	ssize_t reader;
+	ssize_t reader, writer;
 	char buffer[BUFFER];
 
 	if (argc != 3)
@@ -34,12 +34,15 @@ int main(int argc, char **argv)
 
 	do {
 		reader = read(file_from, buffer, BUFFER);
-		reader = write(file_to, buffer, reader);
+		writer = write(file_to, buffer, reader);
 	} while (reader == BUFFER);
 
 	if (reader == EOF)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]),
 			exit(98);
+
+	if (writer == EOF)
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 
 	if (close(file_from) == EOF)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from), exit(100);
