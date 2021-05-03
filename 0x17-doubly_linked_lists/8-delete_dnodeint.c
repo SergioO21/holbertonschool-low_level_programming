@@ -23,19 +23,16 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 
 	if (index == 0 && *head)
 	{
-		printf("hola1\n");
 		delete = *head;
 		*head = (*head)->next;
 		(*head)->prev = NULL;
 	}
-
 	else
 	{
 		for (i = 0; i < index; i++)
 		{
 			if (list)
 				list = list->next;
-
 			else
 				return (-1);
 		}
@@ -44,17 +41,15 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		list = list->next;
 		prev_node = delete->prev;
 		prev_node->next = list;
-		
 		if (list)
 			list->prev = prev_node;
 	}
 
 	if (delete)
 	{
-		printf("hola\n");
 		free(delete);
+		delete = NULL;
 		return (0);
 	}
-
 	return (-1);
 }
