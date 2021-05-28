@@ -25,6 +25,8 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	{
 		if (strcmp(travel->key, key) == 0)
 			return (travel->value);
+
+		travel = travel->next;
 	}
 
 	return (NULL);
