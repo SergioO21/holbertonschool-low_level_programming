@@ -1,8 +1,6 @@
 [![](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/)
 
-<p align="center">
-# Holberton School's Low Level Programming #
-</p>
+<h1 aling="center"> Holberton School's Low Level Programming </h1>
   
 Welcome to the Holberton School's Low Level Programming repository where I'll be uploading the answers to Holberton School's projects about programming concepts in C.
 
