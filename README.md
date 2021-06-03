@@ -1,8 +1,9 @@
-[![](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/)
+<div align="center">
+  <a href="https://www.holbertonschool.com/">
+    <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton Logo"  target="_blank">
+  </a>
+</div>
 
-<a align="center" href="https://www.holbertonschool.com/">
-  <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton Logo"  target="_blank">
-</a>
 
 <h1 align="center"> Holberton School's Low Level Programming </h1> 
 Welcome to the Holberton School's Low Level Programming repository where I'll be uploading the answers to Holberton School's projects about programming concepts in C.
