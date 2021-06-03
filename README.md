@@ -42,7 +42,7 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
       <td> <em> More pointers, arrays and strings. </em> </td>
     </tr>
     <tr>
-      <td> <a href="./0x07-pointers_arrays_strings">  </a> 0x07. C - Even more pointers, arrays and strings </td>
+      <td> <a href="./0x07-pointers_arrays_strings"> 0x07. C - Even more pointers, arrays and strings </a> </td>
       <td> <em> Even more pointers, arrays and strings. </em> </td>
     </tr>
     <tr>
