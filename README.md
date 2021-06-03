@@ -1,12 +1,11 @@
 [![](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/)
 
-<h1 aling="center"> Holberton School's Low Level Programming </h1>
-  
+<h1 align="center"> Holberton School's Low Level Programming </h1> 
 Welcome to the Holberton School's Low Level Programming repository where I'll be uploading the answers to Holberton School's projects about programming concepts in C.
 
-<p align="center">
-# **Table of Contents** #
-</p>
+
+<h1 align="center"> Table of Contents </h1>
+
 
 <p align="center">
 | **Project**                                                                            | **Description**                                 |
