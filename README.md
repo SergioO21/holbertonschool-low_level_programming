@@ -1,7 +1,7 @@
 [![](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/)
 
-<a aling="center" href="https://www.holbertonschool.com/">
-  <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton Logo">
+<a align="center" href="https://www.holbertonschool.com/">
+  <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton Logo"  target="_blank">
 </a>
 
 <h1 align="center"> Holberton School's Low Level Programming </h1> 
