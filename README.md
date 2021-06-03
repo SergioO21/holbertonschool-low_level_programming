@@ -1,11 +1,16 @@
 [![](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/)
 
+<p align="center">
 # Holberton School's Low Level Programming #
-
+</p>
+  
 Welcome to the Holberton School's Low Level Programming repository where I'll be uploading the answers to Holberton School's projects about programming concepts in C.
 
+<p align="center">
 # **Table of Contents** #
+</p>
 
+<p align="center">
 | **Project**                                                                            | **Description**                                 |
 | -------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | **[0x00. C - Hello, World](./0x00-hello_world)**                                       | *Hello world in the world C.*                   |
@@ -32,3 +37,4 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x17. C - Doubly linked lists](./0x17-doubly_linked_lists)**                        | *Doubly linked lists*                           |
 | **[0x18. C - Dynamic libraries](./0x18-dynamic_libraries)**                            | *Dynamic libraries*                             |
 | **[0x1A. C - Hash tables](./0x1A-hash_tables)**                                        | *Hash tables*                                   |
+</p>
