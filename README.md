@@ -1,13 +1,17 @@
-[![](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/)
+<div align="center">
+  <a href="https://www.holbertonschool.com/">
+    <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton Logo"  target="_blank">
+  </a>
+</div>
 
-# Holberton School's Low Level Programming #
 
+<h1 align="center"> Holberton School's Low Level Programming </h1> 
 Welcome to the Holberton School's Low Level Programming repository where I'll be uploading the answers to Holberton School's projects about programming concepts in C.
 
-# **Table of Contents** #
+# Table of Contents
 
 | **Project**                                                                            | **Description**                                 |
-| -------------------------------------------------------------------------------------- | ----------------------------------------------- |
+|----------------------------------------------------------------------------------------|-------------------------------------------------|
 | **[0x00. C - Hello, World](./0x00-hello_world)**                                       | *Hello world in the world C.*                   |
 | **[0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)**             | *Variables (if, else, while).*                  |
 | **[0x02. C - Functions, nested loops](./0x02-functions_nested_loops)**                 | *Nested loops.*                                 |
@@ -31,3 +35,4 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x15. C - File I/O](./0x15-file_io)**                                               | *File I/O*                                      |
 | **[0x17. C - Doubly linked lists](./0x17-doubly_linked_lists)**                        | *Doubly linked lists*                           |
 | **[0x18. C - Dynamic libraries](./0x18-dynamic_libraries)**                            | *Dynamic libraries*                             |
+| **[0x1A. C - Hash tables](./0x1A-hash_tables)**                                        | *Hash tables*                                   |
