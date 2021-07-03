@@ -1,6 +1,6 @@
 # Compile ``main.c`` and ``holberton.c`` to create a executable file called ``holberton``
 
-CC := gcc
+CC = gcc
 SRC = main.c holberton.c
 
 all:
