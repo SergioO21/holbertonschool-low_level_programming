@@ -1,6 +1,6 @@
 # Print Holberton's logo.
-# --------------------------------------------------------------------------------------
-# Compile ``main.o`` and ``holberton.o`` to create a executable file called ``holberton``
+# --------------------------------------------------------------------
+# Compile ``.o`` files to create a executable file called ``holberton``
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
