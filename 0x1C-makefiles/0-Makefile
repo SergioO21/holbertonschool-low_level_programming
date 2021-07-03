@@ -1,0 +1,3 @@
+# Compile ``main.c`` and ``holberton.c`` to create a executable file called ``holberton``
+all:
+	gcc main.c holberton.c -o holberton
