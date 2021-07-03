@@ -1,0 +1,19 @@
+# Print Holberton's logo.
+# --------------------------------------------------------------------------------------
+# Compile ``main.o`` and ``holberton.o`` to create a executable file called ``holberton``
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+CC = gcc
+SRC = main.c holberton.c
+NAME = holberton
+
+# For each ``.c`` file found in SRC, take its equivalent in ``.o``.
+OBJ = $(SRC: %.c = %.o)
+
+# For each .o file that has a .c file as a dependency,
+# we will execute the following statement.
+# $<: ``.c`` file at destination.
+# $@: Name of the ``.c`` file in destination, which will become ``.o``.
+%.o: %.c
+	$(CC) -c $< -o $@
