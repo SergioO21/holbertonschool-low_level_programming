@@ -1,0 +1,36 @@
+# Print Holberton's logo.
+
+CC = gcc
+SRC = main.c holberton.c
+NAME = holberton
+RM = rm
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+# For each ``.c`` file found in SRC, take its equivalent in ``.o``.
+OBJ = $(SRC:%.c=%.o)
+
+# For each .o file that has a .c file as a dependency,
+# we will execute the following statement.
+# $<: ``.c`` file at destination.
+# $@: Name of the ``.c`` file in destination, which will become ``.o``.
+%.o: %.c
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+# Compile ``.o`` files to create a executable file called ``holberton``
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# Deletes all Emacs and Vim temporary files along with the executable.
+clean:
+	$(RM) -f *~ $(NAME)
+
+# Deletes the object files.
+oclean:
+	$(RM) -f $(OBJ)
+
+# Deletes all Emacs and Vim temporary files, the executable,
+# and the object files.
+fclean: clean oclean
+
+# Forces recompilation of all source files.
+re: oclean all
