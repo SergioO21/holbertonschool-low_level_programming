@@ -4,3 +4,5 @@ m.h
 holberton
 *.o
 *~
+5-main.py
+__pycache__
