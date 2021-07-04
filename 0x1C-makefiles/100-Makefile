@@ -1,0 +1,31 @@
+# Print Holberton's logo.
+
+CC = gcc
+SRC = main.c holberton.c
+NAME = holberton
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+# Execute the rules even if there is a file with the same name.
+.PHONY: all clean oclean fclean re
+
+# For each ``.c`` file found in SRC, take its equivalent in ``.o``.
+OBJ = $(SRC:%.c=%.o)
+
+# Compile ``.o`` files to create a executable file called ``holberton``
+all: m.h $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# Deletes all Emacs and Vim temporary files along with the executable.
+clean:
+	$(RM) -f *~ $(NAME)
+
+# Deletes the object files.
+oclean:
+	$(RM) -f $(OBJ)
+
+# Deletes all Emacs and Vim temporary files, the executable,
+# and the object files.
+fclean: clean oclean
+
+# Forces recompilation of all source files.
+re: oclean all
