@@ -36,3 +36,4 @@ Welcome to the Holberton School's Low Level Programming repository where I'll be
 | **[0x17. C - Doubly linked lists](./0x17-doubly_linked_lists)**                        | *Doubly linked lists*                           |
 | **[0x18. C - Dynamic libraries](./0x18-dynamic_libraries)**                            | *Dynamic libraries*                             |
 | **[0x1A. C - Hash tables](./0x1A-hash_tables)**                                        | *Hash tables*                                   |
+| **[0x1C. C - Makefiles](./0x1C-makefiles)**                                            | *Makefiles*                                   |
