@@ -1,7 +1,6 @@
 #include "search_algos.h"
 
-int to_binary_search(int *array, int size, int value, int low, int high);
-int binary_search(int *array, size_t size, int value);
+int binary_search_lh(int *array, int value, int low, int high);
 
 /**
  * exponential_search - Searches for a value in a sorted array of
@@ -33,16 +32,16 @@ int exponential_search(int *array, size_t size, int value)
 
 	printf("Value found between indexes [%d] and [%d]\n", i / 2, final);
 
-	status = to_binary_search(array, final - (i / 2) + 1, value, i / 2, final);
+	status = binary_search_lh(array, value, i / 2, final);
 
 	return (status);
 }
 
 /**
- * to_binary_search - Create a new array to call Binary Search algorithm.
+ * binary_search_lh - Searches for a value in a sorted array of
+ *                    integers using the Binary search algorithm.
  *
  * @array: Pointer to the first element of the array to search in.
- * @size: The number of elements in array.
  * @value: The value to search for.
  * @low: Lowest index.
  * @high: Highest index.
@@ -52,39 +51,9 @@ int exponential_search(int *array, size_t size, int value)
  *           if array is NULL, returns (-1).
  */
 
-int to_binary_search(int *array, int size, int value, int low, int high)
+int binary_search_lh(int *array, int value, int low, int high)
 {
-	int i, j, status = 0;
-	int new_array[high - low + 1];
-
-	for (i = 0, j = low; i <= high - low; i++, j++)
-		new_array[i] = array[j];
-
-	status = binary_search(new_array, (size_t)size, value);
-
-	if (status != -1)
-		status += low;
-
-	return (status);
-}
-
-/**
- * binary_search - Searches for a value in a sorted array of
- *                 integers using the Binary search algorithm.
- *
- * @array: Pointer to the first element of the array to search in.
- * @size: The number of elements in array.
- * @value: The value to search for.
- *
- * Return: - The index where value is located.
- *         - If @value is not present in array or
- *           if array is NULL, returns (-1).
- */
-
-int binary_search(int *array, size_t size, int value)
-{
-	int mid, i, low = 0;
-	int high = size - 1;
+	int mid, i;
 
 	if (!array)
 		return (-1);
