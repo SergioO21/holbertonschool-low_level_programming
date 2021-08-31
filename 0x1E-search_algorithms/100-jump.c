@@ -45,6 +45,9 @@ int jump_search(int *array, size_t size, int value)
 
 			if (array[tmp] == value)
 				return (tmp);
+
+			if (array[tmp] > value)
+				break;
 		}
 	}
 	return (-1);
