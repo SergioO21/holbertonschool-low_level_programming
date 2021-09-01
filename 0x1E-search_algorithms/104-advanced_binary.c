@@ -63,7 +63,7 @@ int advanced_binary_execution(int *array, int low, int high, int value)
 	}
 
 	else if (array[mid] > value)
-		return (advanced_binary_execution(array, low, mid - 1, value));
+		return (advanced_binary_execution(array, low, mid, value));
 	else
 		return (advanced_binary_execution(array, mid + 1, high, value));
 	}
