@@ -7,3 +7,6 @@
 104-advanced_binary
 105-jump
 106-linear
+create_list.c
+free_list.c
+print_list.c
